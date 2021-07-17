@@ -5,7 +5,7 @@
 	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
 	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
-	<changeSet id="e63a0dd79a8ba91fb9f023d65fc44fb2011cf270" author="(HR)-Generated" failOnError="false"    >
+	<changeSet id="aa5ee4dfdc5fa7adf5d8652f20d213a5eb71fff6" author="(HR)-Generated" failOnError="false"    >
 		<n0:createSxmlObject objectName="EMPLOYEES" objectType="TABLE" ownerName="HR"   >
 			<n0:source><![CDATA[
   <TABLE xmlns="http://xmlns.oracle.com/ku" version="1.0">
@@ -46,7 +46,7 @@
          <COL_LIST_ITEM>
             <NAME>PHONE_NUMBER</NAME>
             <DATATYPE>VARCHAR2</DATATYPE>
-            <LENGTH>20</LENGTH>
+            <LENGTH>30</LENGTH>
             <COLLATE_NAME>USING_NLS_COMP</COLLATE_NAME>
          </COL_LIST_ITEM>
          <COL_LIST_ITEM>
