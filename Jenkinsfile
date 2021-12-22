@@ -9,7 +9,7 @@ pipeline {
                 GITGUARDIAN_API_KEY = credentials('gitguardian-api-key')
             }
             steps {
-                sh 'ggshield scan ci'
+                sh 'ggshield scan ci --config-path=gitguardian.yaml '
             }
         }
     }
